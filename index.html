@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+    <!--Scrollreveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Bootstrap core CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Material Design Bootstrap -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.1/css/mdb.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/20a46fdd57.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Info Covid19</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!--Navbar-->
+      <nav class="navbar navbar-expand-lg navbar-dark blue darken-4">
+        <a class="navbar-brand" href="index.html">#QuedateEnCasa</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sintomas.html">Síntomas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="prevencion.html">Prevención</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="recomendaciones.html"
+                >Recomendaciones</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="curiosidades.html"
+                >Curiosidades</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!--Navbar-->
+      <!--Header-->
+      <header>
+        <div id="particles-js" class="transparent">
+          <div class="texto">
+            <h1 class="display-1"> <b>Covid19</b></h1>
+            <a
+              href="https://gisanddata.maps.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6"
+              target="_blank"
+              class="btn btncovid mt-3"
+              ><i class="fas fa-globe-americas mr-1"></i>Mapa</a
+            >
+          </div>
+        </div>
+      </header>
+      <!--Header--->
+      <!--Main-->
+      <div class="main">
+        <div class="row sinspace">
+          <div class=" col-sm-6 col-md-6 col-lg-6 sinspace text-center ">
+            <img
+              src="img/012-virus.png"
+              class="img-fluid w-25 virus"
+              alt="virus1"
+            />
+            <img
+              src="img/012-virus.png"
+              class="img-fluid w-25 virus"
+              alt="virus1"
+            />
+            <img
+              src="img/012-virus.png"
+              class="img-fluid w-25 virus"
+              alt="virus1"
+            />
+          </div>
+          <div class="col-sm-6 col-md-6 col-lg-6 sinspace">
+            <h1 class=" mt-5 text-center quees">¿Que es el covid19?</h1>
+            <p class="text-justify mt-2 p-4 quees">
+              El COVID-19 es la enfermedad infecciosa causada por el coronavirus
+              que se ha descubierto más recientemente. Tanto el nuevo virus como
+              la enfermedad eran desconocidos antes de que estallara el brote en
+              Wuhan (China) en diciembre de 2019. <br /><br />
+              Los coronavirus (CoV) son una amplia familia de virus que pueden
+              causar diversas afecciones, desde el resfriado común hasta
+              enfermedades más graves, como ocurre con el coronavirus causante
+              del síndrome respiratorio de Oriente Medio (MERS-CoV) y el que
+              ocasiona el síndrome respiratorio agudo severo (SRAS-CoV). Un
+              nuevo coronavirus es una nueva cepa de coronavirus que no se había
+              encontrado antes en el ser humano.
+            </p>
+          </div>
+        </div>
+
+        <div class="row sinspace">
+          <div class="col-sm-6 col-md-6 col-lg-6 sinspace text-center">
+            <h1 class="mt-5 text-center propagacion">Propagación</h1>
+            <p class="text-justify mt-2 p-4 propagacion ">
+              Una persona puede contraer la COVID-19 por contacto con otra que
+              esté infectada por el virus. La enfermedad puede propagarse de
+              persona a persona a través de las gotículas procedentes de la
+              nariz o la boca que salen despedidas cuando una persona infectada
+              tose o exhala. <br /><br />
+              Estas gotículas caen sobre los objetos y superficies que rodean a
+              la persona, de modo que otras personas pueden contraer la COVID-19
+              si tocan estos objetos o superficies y luego se tocan los ojos, la
+              nariz o la boca. También pueden contagiarse si inhalan las
+              gotículas que haya esparcido una persona con COVID-19 al toser o
+              exhalar. Por eso es importante mantenerse a más de 1 metro (3
+              pies) de distancia de una persona que se encuentre enferma.
+            </p>
+            <button
+              type="button"
+              class="btn btn-sm btn-indigo botonp"
+              data-toggle="modal"
+              data-target="#centralModalSm"
+            >
+              Mas Info
+            </button>
+            <div
+              class="modal fade"
+              id="centralModalSm"
+              tabindex="-1"
+              role="dialog"
+              aria-labelledby="myModalLabel"
+              aria-hidden="true"
+            >
+              <div class="modal-dialog modal-dialog-scrollable modal-fluid " role="document">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h2 class="modal-title w-100" id="myModalLabel">
+                      Propagación de persona a persona
+                    </h2>
+                    <button
+                      type="button"
+                      class="close"
+                      data-dismiss="modal"
+                      aria-label="Close"
+                    >
+                      <span aria-hidden="true">&times;</span>
+                    </button>
+                  </div>
+                  <div class="modal-body">
+                    <p>
+                      Se cree que el virus se propaga principalmente de persona
+                      a persona.
+                    </p>
+                    <ul>
+                      <li>
+                        Entre las personas que tienen contacto cercano entre
+                        ellas (dentro de unos 6 pies de distancia).
+                      </li>
+                      <li>
+                        Mediante gotitas respiratorias que se producen cuando
+                        una persona infectada tose o estornuda.
+                      </li>
+                      <li>
+                        Estas gotitas pueden llegar a la boca o la nariz de las
+                        personas que se encuentren cerca o posiblemente entrar a
+                        los pulmones al respirar.
+                      </li>
+                    </ul>
+                    <h2>
+                      Propagación mediante el contacto con superficies u objetos
+                      contaminados
+                    </h2>
+                    <p>
+                      Podría ser posible que una persona contraiga el COVID-19
+                      al tocar una superficie u objeto que tenga el virus y
+                      luego se toque la boca, la nariz o posiblemente los ojos,
+                      aunque no se cree que esta sea la principal forma en que
+                      se propaga el virus.
+                    </p>
+                    <h2>¿Cuándo se produce la propagación?</h2>
+                    <ul>
+                      <li>
+                        Se cree que las personas son más contagiosas cuando
+                        presentan síntomas más fuertes (están más enfermas).
+                      </li>
+                      <li>
+                        Podría ser posible que haya algo de propagación antes de
+                        que las personas presenten síntomas; ha habido informes
+                        sobre esto con relación a este nuevo coronavirus, aunque
+                        no se cree que esta sea la principal forma en que se
+                        propaga el virus.
+                      </li>
+                    </ul>
+                    <h2>¿Qué tan eficientemente se propaga el virus?</h2>
+                    <p>
+                      La facilidad con que se propaga un virus de persona a
+                      persona puede variar. Algunos virus son altamente
+                      contagiosos (como el sarampión), mientras que otros virus
+                      no lo son tanto. Otro factor es si la propagación continúa
+                      por múltiples generaciones de personas (si la propagación
+                      es continua). El virus que causa el COVID-19 parece estar
+                      propagándose fácilmente y en forma continua en la
+                      provincia de Hubei y otras partes de China. En los Estados
+                      Unidos, la propagación de persona a persona ha ocurrido
+                      solo entre unos pocos contactos cercanos y no se ha
+                      propagado mucho más hasta la fecha.
+                    </p>
+                  </div>
+                  <div class="modal-footer">
+                    <button
+                      type="button"
+                      class="btn btn-danger btn-sm"
+                      data-dismiss="modal"
+                    >
+                      Cerrar
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--columna de la imagen-->
+          <div class="col-sm-6 col-md-6 col-lg-6 sinspace text-center">
+            <img
+              src="img/crowd.png"
+              class="img-fluid imgprog mt-5"
+              alt="propagacion"
+            />
+          </div>
+        </div>
+
+        <section class="container text-center">
+          <div class="row ">
+            <div class="col-sm-12 col-md-12">
+              <h1 class="mt-5 text-center cod">
+                El Coronavirus, lo que deberias saber
+              </h1>
+              <div class="emded-responsive text-center mt-4">
+                <iframe
+                  width="560"
+                  height="315"
+                  src="https://www.youtube.com/embed/BtN-goy9VOY"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen
+                ></iframe>
+              </div>
+              <button
+                type="button"
+                class="btn btn-sm btn-indigo"
+                data-toggle="tooltip"
+                data-placement="bottom"
+                title="Activa los subtitulos"
+              >
+                Info
+              </button>
+              <a
+                href="https://youtu.be/BtN-goy9VOY"
+                class="btn btn-sm btn-indigo"
+                target="_blank"
+                >Video</a
+              >
+            </div>
+          </div>
+        </section>
+      </div>
+      <!--Main-->
+      <!-- Footer -->
+      <footer class="page-footer font-small blue darken-4  mt-5">
+        <div class="footer-copyright text-center py-1">© 2020 Copyright</div>
+      </footer>
+      <!-- Footer-->
+    </div>
+
+    <script type="text/javascript" src="js/particles.min.js"></script>
+    <script type="text/javascript" src="js/app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/particles.js@2.0.0/particles.min.js"></script>
+    <!-- JQuery -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+    ></script>
+    <!-- Bootstrap tooltips -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"
+    ></script>
+    <!-- Bootstrap core JavaScript -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"
+    ></script>
+    <!-- MDB core JavaScript -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.1/js/mdb.min.js"
+    ></script>
+    <script>
+      particlesJS.load("particles-js", "js/particles.json", function() {
+        console.log("particle.json loaded...");
+      });
+    </script>
+    <script>
+      window.sr = ScrollReveal();
+
+      sr.reveal(".virus", {
+        duration: 2000,
+        origin: "left",
+        distance: "300px"
+      });
+
+      sr.reveal(".quees", {
+        duration: 2000,
+        origin: "right",
+        distance: "300px"
+      });
+
+      sr.reveal(".propagacion", {
+        duration: 2000,
+        origin: "right",
+        distance: "300px"
+      });
+
+      sr.reveal(".botonp", {
+        duration: 2000,
+        origin: "right",
+        distance: "300px"
+      });
+
+      sr.reveal(".imgprog", {
+        duration: 2000,
+        origin: "left",
+        distance: "300px"
+      });
+
+      sr.reveal(".cod", {
+        duration: 2000
+      });
+
+      $(function() {
+        $('[data-toggle="tooltip"]').tooltip();
+      });
+    </script>
+  </body>
+</html>

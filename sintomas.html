@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    />
+    <!-- Google Fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+    />
+    <!--Scrollreveal-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <!-- Bootstrap core CSS -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- Material Design Bootstrap -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.1/css/mdb.min.css"
+      rel="stylesheet"
+    />
+    <script
+      src="https://kit.fontawesome.com/20a46fdd57.js"
+      crossorigin="anonymous"
+    ></script>
+    <!--<a href="https://www.freepik.es/fotos-vectores-gratis/salud">Vector de Salud creado por freepik - www.freepik.es</a>-->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Sintomas</title>
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!--Navbar-->
+      <nav class="navbar navbar-expand-lg navbar-dark blue darken-4">
+        <a class="navbar-brand" href="index.html">#QuedateEnCasa</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">Inicio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="sintomas.html">Síntomas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="prevencion.html">Prevención</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="recomendaciones.html"
+                >Recomendaciones</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="curiosidades.html"
+                >Curiosidades</a
+              >
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!--Navbar-->
+
+      <section class="main">
+        <h1 class="text-center mt-5"><b>Ten cuidado</b></h1>
+        <div class="row mt-5 sinspace">
+          <div class="col-lg-6 sinspace bg-light rounded">
+            <img
+              src="img/fiebre.png"
+              class="img-fluid w-50 mx-auto d-block fiebre"
+              alt="fiebre"
+            />
+          </div>
+          <div class="col-lg-6 sinspace ">
+            <img
+              src="img/tos.jpg"
+              class="img-fluid  imgfiebre w-50  mx-auto d-block tos"
+              alt="tos"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="text-center">
+        <div
+          class="infogram-embed "
+          data-id="b9806218-811a-464b-802b-15fb3862ccde"
+          data-type="interactive"
+          data-title="Bar Stacked Chart"
+        ></div>
+        <script>
+          !(function(e, i, n, s) {
+            var t = "InfogramEmbeds",
+              d = e.getElementsByTagName("script")[0];
+            if (window[t] && window[t].initialized)
+              window[t].process && window[t].process();
+            else if (!e.getElementById(n)) {
+              var o = e.createElement("script");
+              (o.async = 1),
+                (o.id = n),
+                (o.src = "https://e.infogram.com/js/dist/embed-loader-min.js"),
+                d.parentNode.insertBefore(o, d);
+            }
+          })(document, 0, "infogram-async");
+        </script>
+        <div
+          style="padding:8px 0;font-family:Arial!important;font-size:13px!important;line-height:15px!important;text-align:center;border-top:1px solid #dadada;margin:0 30px"
+        ></div>
+      </section>
+    </div>
+    <!-- Footer -->
+    <footer class="page-footer  blue darken-4 font-small  mt-5">
+      <div class="footer-copyright text-center py-1">© 2020 Copyright</div>
+    </footer>
+    <!-- Footer-->
+
+    <!-- JQuery -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"
+    ></script>
+    <!-- Bootstrap tooltips -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"
+    ></script>
+    <!-- Bootstrap core JavaScript -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.4.1/js/bootstrap.min.js"
+    ></script>
+    <!-- MDB core JavaScript -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.14.1/js/mdb.min.js"
+    ></script>
+
+    <script>
+      window.sr = ScrollReveal();
+
+      sr.reveal(".fiebre, .bg-light", {
+        duration: 2000,
+        origin: "left",
+        distance: "300px"
+      });
+
+      sr.reveal(".tos", {
+        duration: 2000,
+        origin: "right",
+        distance: "300px"
+      });
+    </script>
+  </body>
+</html>

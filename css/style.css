@@ -1,0 +1,72 @@
+:root {
+    --azul: #0d47a1;
+}
+
+.container-fluid{
+    padding: 0;
+}
+
+#particles-js{
+    height: 600px;
+    width: 100%;
+}
+
+.texto{
+    color: var(--azul);
+    position: absolute;
+    text-align: center;
+    top: 40%;
+    width: 100%;
+    line-height: 0.4em;
+}
+
+h1{
+    font-size: 50px;
+    margin: 0;
+}
+
+.btncovid{
+    background: transparent;
+    height: 40px;
+    line-height: 40px;
+    border: 2px solid var(--azul);
+    display: inline-block;
+    float: none;
+    text-align: center;
+    width: 120px;
+    padding: 0px !important;
+    font-size: 14px;
+    color: var(--azul);
+}
+
+.btncovid:hover{
+    color: #fff;
+    background: rgba(13, 71,161, 1);
+}
+
+.sinspace{
+   padding: 0;
+   margin: 0;
+}
+
+.virus{
+    margin-top: 140px;
+}
+
+.imgprog{
+    width: 400px;
+    height: 400px;
+}
+
+.accordion{
+    margin-top: 75px;
+}
+
+.estres{
+    width: 100px;
+    height: 100px;
+}
+
+
+
+
